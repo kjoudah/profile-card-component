@@ -4,8 +4,8 @@
 body {
   font-family: 'Kumbh Sans';
   background-color: var(--primary-cyan);
-  background-image: url(/images/bg-pattern-top.svg),
-    url(/images/bg-pattern-bottom.svg);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom 50vh right 50vw, top 50vh left 50vw;
   background-size: 100vh, 100vh;
@@ -29,7 +29,7 @@ img {
 }
 
 .card__header {
-  background: url(/images/bg-pattern-card.svg);
+  background: url(../images/bg-pattern-card.svg);
   display: block;
   position: relative;
   z-index: 1;
